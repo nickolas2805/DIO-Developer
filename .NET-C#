@@ -243,3 +243,97 @@ iOS
 ★Executado no ambiente Mono + AOT( ahead of time)
 
 ★Restrição de segurança: sem permissão para execução de código gerado dinamicamente.
+
+#### Aula 3
+
+1. O que é escrever um bom código?
+
+   - Ser confiável
+
+   - Ser sustentável
+
+   - Ser eficiente
+
+     Deve ser equilibrado juntando Eficiência e desempenho com confiabilidade e facilidade
+
+2. Por que e como devemos padronizar?
+
+   - Melhorar comunicação entre a equipe
+   - Facilitar a manutenção de códigos
+   - Utilizar documentação e boas práticas de codificação, como clean code
+
+3. Entendendo o Clean Code:
+
+   - Conjunto de boas práticas na escrita de software para obtenção de maior legibilidade e facilidade de manutenção de código
+   - Regras gerais:
+     - Siga SEMPRE as convenções adotadas pela equipe
+     - KISS : Keep It Stupid Simple (Mantenha isso estupidamente simples)
+     - Devolva o código mais limpo do que você o encontrou
+     - Busque sempre entender e solucionar os problemas a partir de sua raiz
+   - Regras para entendimento de código
+     - Seja consistente na escrita de todo o código
+     - Utilize variáveis concisas e que realmente passem a informação necessária
+     - Observe a necessidade de criação de objetos de valor ao invés do uso de tipos primitivos
+     - Evite dependências lógicas
+     - Evite condicionais negativas
+   - Regras para nomeação
+     - Escolher nomes descritivos para classes, variáveis e métodos
+     - Para variáveis semelhantes, faça uma distinção identificável
+     - Utilizar nomes de fácil leitura e busca
+     - Utilize constantes para guardar strings a serem comparadas
+     - Não use prefixos ou caracteres especiais
+   - Regras para métodos
+     - Métodos não devem ser grandes e devem possuir somente um objetivo/responsabilidade
+     - Métodos devem possuir nomes descritivos
+     - Evite a exigência de muitos parâmetros dentro do método
+     - Evite que uma função altere valores de outra classe sem ser a própria classe
+     - Evite utilização de flags desnecessárias
+   - Regras para comentários
+     - Evite comentários desnecessário, torne seu código autoexplicativo
+     - Não seja redundante
+     - Não deixe código desnecessário comentado
+     - Comentários podem ser úteis para falar sobre a intenção de uma classe ou método
+     - Comentários podem explanar regras mais complexas e alertas sobre consequências mais sérias
+   - Regras para estruturação de código
+     - Declare variáveis próximas de seu uso
+     - Agrupe métodos similares
+     - Declare funções de cima pra baixo
+     - Mantenha poucas e curtas linhas
+     - Use espaçamentos e identação corretamente
+
+4. Convenções e nomenclatura
+
+   - Camel Case
+
+     - Escrever palavras ou frases compostas considerando a primeira letra da primeira palavra sempre minúscula e as subsequentes maiúsculas.
+
+   - Pascal Case
+
+     - Escrever palavras ou frases compostas considerando a primeira letra de cada palavra maiúscula
+
+   - Padrão para C#
+
+     - Não há uma regra obrigatória, porém grande maioria dos desenvolvedores convenciona da seguinte forma:
+       - Nomes de classes e métodos -> PascalCase
+       - Nomes de variáveis e parâmetros -> CamelCase
+       - No caso de interfaces recomenda-se o uso do prefixo “ I “Ex: IEntidade, IRepositorioCliente
+
+   - Recomendações da Microsoft
+
+     - Uso do PascalCase
+
+       - Classes
+       - Interfaces
+       - Membros de tipos públicos
+
+     - Uso com CamelCase
+
+       - Campos privados e internos 
+
+         - deve-se ainda usá-los com prefixo “_”.
+
+       - Campos estáticos privados ou internos
+
+         - usar com prefixo “s_” 
+
+         
