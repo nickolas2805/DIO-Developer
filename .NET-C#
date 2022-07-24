@@ -1,0 +1,81 @@
+## .NET and ASP.NET
+
+- **.NET**: Plataforma de desenvolvimento com diversas ferramentas, linguagens de programação e bibliotecas que permitem o desenvolvimento de diversos tipos de aplicações.
+
+  .NET Foundation
+
+- 
+
+  - Gratuita e de software livre
+  - Plataforma cruzada
+    - x64
+    - x32
+    - ARM32
+    - ARM64
+  - Tipos de implementação
+    - .NET Framework
+    - .NET Core
+    - Xamarin
+    - Windows
+    - Linux
+    - Mac
+    - Mobile
+  - Tipos de aplicação
+    - Web
+    - Mobile
+    - Desktop
+    - Microservices
+    - Cloud
+    - Machine Learning
+    - Jogos
+    - IOT
+
+- .NET Standard
+
+  - Especificação das APIs que são comuns às implementações .NET
+
+- IDEs
+
+  - Visual Studio
+  - Visual Studio Code (Leve)
+  - Codespaces (online)
+
+- Linguagens de programação
+
+  - C#
+  - F#
+  - Visual Basic
+
+- Bibliotecas para desenvolvimento e execução de aplicações .NET
+
+  - SDK
+  - Runtime
+
+- NUGET: Gerenciador de pacotes
+
+- Acesso a dados
+
+  - ORM -> Entity Framework Core
+  - LINQ -> consulta integrada à linguagem
+
+- Ambientes CI/CD
+
+  - GitHub Actions
+  - Azure Devops
+  - Cake/Fake
+
+- Gerenciamento Automático de memória
+
+  
+
+- **ASP.NET**: Framework que estende .NET para a criação de Web App's.
+  - Aplicações Web (ASP.NET Core (atualização))
+    - Páginas web
+    - REST APIs
+    - microservices
+    - hubs
+  - Processamento de requisições web (C# e F#)
+  - Criação de páginas da web de forma dinâmica
+  - Bibliotecas para *web patterns* (Model View Controller)
+  - Sistema de autenticação
+  - Extensões para produtividade 
