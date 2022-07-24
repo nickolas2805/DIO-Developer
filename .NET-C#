@@ -14,12 +14,12 @@
     - ARM64
   - Tipos de implementação
     - .NET Framework
+      - Windows
+      - Linux
     - .NET Core
+      - Mac
     - Xamarin
-    - Windows
-    - Linux
-    - Mac
-    - Mobile
+      - Mobile
   - Tipos de aplicação
     - Web
     - Mobile
