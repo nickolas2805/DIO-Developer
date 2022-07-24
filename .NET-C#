@@ -1,5 +1,7 @@
 ## .NET and ASP.NET
 
+#### Aula 1
+
 - **.NET**: Plataforma de desenvolvimento com diversas ferramentas, linguagens de programação e bibliotecas que permitem o desenvolvimento de diversos tipos de aplicações.
 
   .NET Foundation
@@ -69,13 +71,175 @@
   
 
 - **ASP.NET**: Framework que estende .NET para a criação de Web App's.
+
   - Aplicações Web (ASP.NET Core (atualização))
+
     - Páginas web
     - REST APIs
     - microservices
     - hubs
+
   - Processamento de requisições web (C# e F#)
+
   - Criação de páginas da web de forma dinâmica
+
   - Bibliotecas para *web patterns* (Model View Controller)
+
   - Sistema de autenticação
-  - Extensões para produtividade 
+
+  - Extensões para produtividade
+
+    
+
+#### Aula 2
+
+1.  Desenvolvimento multiplataforma com .NET: contexto e conceitos
+
+   - Open-source e gratuito ->
+
+     - Distribuição livre;
+
+     - Acesso ao código-fonte;
+
+     - Permissão para criação de trabalhos derivados;
+
+     - Integridade do autor do código-fonte;
+
+     - Não discriminação contra pessoas ou grupos;
+
+     - Não discriminação contra áreas de atuação;
+
+     - Distribuição da licença
+
+     - Licença não específica a um produto;
+
+     - Licença não restritiva a outros programas;
+
+     - Licença neutra em relação à tecnologia.
+
+       
+
+   - Abordagem multiplataforma
+
+     - .NET Framework
+       - App models:
+         - WPF
+         - Windows Forms
+         - ASP.NET
+       - Base Libraries
+         - .NET Framework Class Library
+     - .NET Core
+       - App models:
+         - UWP
+         - ASP.NET Core*
+       - Base Libraries
+         - CoreFx Class Library
+     - Xamarin
+       - App Models:
+         - Xamarin iOS
+         - Xamarin Android
+         - Xamarin Forms
+         - Xamarin Mac
+       - Base Libraries
+         - Mono Class Library
+     - .NET Standard Library
+     - Base Libraries
+       - Platform Agnostic Assemblies
+       - .NET Platform Standard (Contracts)
+
+     - Common Infrastructure
+       - Compilers
+       - Languages
+       - Runtime components
+
+     
+
+2. Entendendo .NET Framework
+
+   - Focado no Windows
+   - Componentes:
+     - Common language runtime ( JIT - compilador )
+     - .NET Class library
+   - IDE vai traduzir pra Common Language Runtime e o JIT vai traduzir pra linguagem de máquina
+   - Características
+     - Gerenciamento de memória
+     - Sistema de tipos comum -> Tipos definidos pelo próprio framework
+     - Grande e específicas bibliotecas de classes utilitárias
+       - ASP.NET (WEB)
+       - ADO.NET (Acesso de dados)
+       - WCF (Programação orientada a Serviços)
+       - WPF (Desenvolvimento de aplicativos de área de trabalho)
+     - Interoperabilidade entre linguagens
+     - Compatibilidade de versões
+     - Uso do .NET Standard
+
+3. Entendendo .NET / .NET Core
+   - Uma plataforma unificada pra tudo
+   - .NET = .NET Core + .NET Framework + Xamarin + Mono
+   - Modular e com melhor desempenho
+   - Ciclos de lançamentos mais rápidos
+   - ASP.NET Core
+     - Construção de aplicações web, Iot apps e aplicações backend para mobile
+     - Funcionalidades para construção de aplicações com renderização no servidor
+       - Uso do MVC -> ASP.NET Core MVC
+         - Uso de Padrão MVC (Model View Controller)
+           1. Model: Representa o estado da aplicação, encapsulando lógica de negócio.
+           2. View: Responsável por apresentar dados através de interface.
+           3. Controller: Componentes que lidam com a interação do usuário a partir da View e trabalham com a model para apresentar respostas para o usuário.
+         - Uso de padrão Model Binding
+           1. Mapeamento automático de dados de requisições HTTP para parâmetros de métodos de ação
+         - Uso de padrão Model Validation
+           1. Validação automática no lado do cliente e servidor
+         - Uso do padrão Razor Pages e Razor Markup
+           1. Modelo baseado em páginas -> simplificado
+           2. Interface e lógica de negócios são separados, mas dentro da página.
+           3. Sintaxe de marcação para inserir código baseado em .NET em páginas WEB = Razor markup +C# + HTML 
+         - Mecanismo que pode ser usado junto com os padrões anteriores são os **Tag helpers**
+           1. Permite que o código do lado do servidor participe da criação e renderização de elementos HTML em arquivos Razor
+           2. Experiência de desenvolvimento com HTML mais amigável
+           3. IntelliSense no ambiente para sintaxe HTML e Razor
+           4. Manutenção de código usando somente informações do servidor
+       - Blazor
+         - Framework para construir aplicativos do lado do cliente, que são executados direto no navegasdor com WebAssembly (WASM) usando C#.
+         - Uso da interoperabilidade com Javascript para lidar com manipulação da DOM e chamadas de API.
+         - Integração com frameworks como Angular, React e Bootstrap
+
+4. Entendendo Xamarin
+
+➔Plataforma para desenvolvimento de aplicações mobile modernas com alto desempenho 
+
+➔Baseado no projeto Mono, implementação open source baseada no .NET Framework
+
+➔Criação de interface nativa em cada plataforma(Android, iOS, MacOS e Windows apps) e código de lógica compartilhado
+
+➔Possui todos os benefícios já citados da plataforma .NET
+
+★Framework open source para desenvolvimento de interfaces para o usuário
+
+★Aplicativos Android, iOS e Windows com única base de código
+
+★Criação de UI com XAML e lógica com C# (**XAML: Extensible Application Markup Language**)
+
+★Uso de biblioteca Xamarin.Essentials
+
+- informações de dispositivos
+
+- sistema de arquivos
+
+- acelerômetro
+
+- bloqueio de tela…
+
+ANDROID
+
+★Compilação de C# para LI ( linguagem intermediária), que por sua vez é Compilado para assembly nativo no momento da execução
+
+★Executado no ambiente Mono + ART
+
+iOS
+
+★Compilação total de C# para código assembly nativo 
+
+★Executado no ambiente Mono + AOT( ahead of time)
+
+★Restrição de segurança: sem permissão para execução de código gerado dinamicamente.
