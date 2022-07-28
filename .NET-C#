@@ -531,3 +531,48 @@ iOS
 
 
 
+# Criando o ambiente de desenvolvimento
+
+#### Aula 3
+
+- Framework = caixa de ferramentas (componentes)
+  - Bootstrap
+- Runtime
+  - Compila programas para a linguagem de máquina binária
+
+#### Aula 4
+
+- CLI (Command-Line Interface)
+
+- ILC (Interface de Linha de Comando)
+  - Processa os comandos que serão enviados para um programa de computador na forma de linhas de texto
+- Lista de comandos
+  1. dotnet --version
+     - Mostra a versão do .NET que está instalado
+  2. dotnet --help
+     - Mostra todos os comandos que podemos utilizar
+  3. dotnet --info
+     - Mostra mais informações do que só a versão
+  4. dotnet new --list --help
+     - Mostra como usar o comando
+  5. dotnet new console -o "nome do diretório"
+     - Cria diretório dotnet com nome especificado
+  6. dotnet run (quando dentro do diretório criado)
+     - roda o programa
+  7. dotnet build (quando dentro do diretório criado)
+     - compila o programa
+  8. dotnet restore (quando dentro do diretório criado)
+     - restaura arquivos e programas para corrigir erros
+
+
+
+# Primeiros passos com .NET
+
+#### Aula 3
+
+###### Criando uma aplicação console
+
+- aplicação que será executada via  algum terminal como CMD, etc...
+
+
+
