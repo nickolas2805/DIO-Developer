@@ -1,0 +1,13 @@
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.exe
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.deps.json
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.runtimeconfig.json
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.runtimeconfig.dev.json
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.dll
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\bin\Debug\netcoreapp3.1\PrimeiraAplicação.pdb
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.csprojAssemblyReference.cache
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.AssemblyInfoInputs.cache
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.AssemblyInfo.cs
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.csproj.CoreCompileInputs.cache
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.dll
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.pdb
+C:\Users\nicko\Documents\Workspace\dio-full-stack-developer\.NET\PrimeiraAplicação\obj\Debug\netcoreapp3.1\PrimeiraAplicação.genruntimeconfig.cache
